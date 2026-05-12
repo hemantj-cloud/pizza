@@ -1,0 +1,35 @@
+{
+  "name": "fresh_pizza",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "gerf",
+  "scripts": {
+    "dev": "nitrostack-cli dev",
+    "build": "nitrostack-cli build",
+    "start": "npm run build && nitrostack-cli start",
+    "start:prod": "nitrostack-cli start",
+    "upgrade": "nitrostack-cli upgrade",
+    "install:all": "nitrostack-cli install",
+    "widget": "npm --prefix src/widgets"
+  },
+  "keywords": [
+    "nitrostack",
+    "mcp",
+    "pizza",
+    "map",
+    "widgets"
+  ],
+  "author": "wfwrf",
+  "license": "MIT",
+  "dependencies": {
+    "@nitrostack/core": "^1",
+    "@nitrostack/cli": "^1",
+    "zod": "^3.22.4",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "typescript": "^5.3.3"
+  }
+}
